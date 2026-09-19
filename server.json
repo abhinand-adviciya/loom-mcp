@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.Adviciya-dev/loom",
+  "name": "io.github.abhinand-adviciya/loom",
   "title": "Loom",
   "description": "Manage Loom projects, tasks, bugs, defects, clients and phases from AI assistants",
   "websiteUrl": "https://loom.adviciya.com",
