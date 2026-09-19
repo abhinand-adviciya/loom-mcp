@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Adviciya-dev/loom",
+  "title": "Loom",
+  "description": "Manage Loom projects, tasks, bugs, defects, clients and phases from AI assistants",
+  "websiteUrl": "https://loom.adviciya.com",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://loom.adviciya.com/api/v1/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Loom personal access token, as: Bearer <token>. Generate one from Loom Settings > MCP.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
