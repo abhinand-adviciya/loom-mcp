@@ -4,7 +4,7 @@
   "title": "Loom",
   "description": "Manage Loom projects, tasks, bugs, defects, clients and phases from AI assistants",
   "websiteUrl": "https://loom.adviciya.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
